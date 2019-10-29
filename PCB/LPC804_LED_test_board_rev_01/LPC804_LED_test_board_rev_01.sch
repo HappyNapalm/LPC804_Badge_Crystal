@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:L78L06_SOT89 U?
+L Regulator_Linear:L78L06_SOT89 U1
 U 1 1 5D80259B
 P 1700 800
-F 0 "U?" H 1700 1042 50  0000 C CNN
+F 0 "U1" H 1700 1042 50  0000 C CNN
 F 1 "L78L06_SOT89" H 1700 951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1700 1000 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 1700 750 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L78L05_SOT89 U?
+L Regulator_Linear:L78L05_SOT89 U2
 U 1 1 5D8026B6
 P 1700 1600
-F 0 "U?" H 1700 1842 50  0000 C CNN
+F 0 "U2" H 1700 1842 50  0000 C CNN
 F 1 "L78L33_SOT89" H 1700 1751 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1700 1800 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 1700 1550 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5D802989
 P 1700 1100
-F 0 "#PWR?" H 1700 850 50  0001 C CNN
+F 0 "#PWR02" H 1700 850 50  0001 C CNN
 F 1 "GND" H 1705 927 50  0000 C CNN
 F 2 "" H 1700 1100 50  0001 C CNN
 F 3 "" H 1700 1100 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 1700 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5D8029B1
 P 1700 1900
-F 0 "#PWR?" H 1700 1650 50  0001 C CNN
+F 0 "#PWR03" H 1700 1650 50  0001 C CNN
 F 1 "GND" H 1705 1727 50  0000 C CNN
 F 2 "" H 1700 1900 50  0001 C CNN
 F 3 "" H 1700 1900 50  0001 C CNN
@@ -59,45 +59,45 @@ F 3 "" H 1700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C1
 U 1 1 5D802A18
 P 1000 1000
-F 0 "C?" H 1178 1046 50  0000 L CNN
+F 0 "C1" H 1178 1046 50  0000 L CNN
 F 1 "CAP" H 1178 955 50  0000 L CNN
-F 2 "" H 1000 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 1000 50  0001 C CNN
 F 3 "~" H 1000 1000 50  0001 C CNN
 	1    1000 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C3
 U 1 1 5D802A9D
 P 2350 1000
-F 0 "C?" H 2528 1046 50  0000 L CNN
+F 0 "C3" H 2528 1046 50  0000 L CNN
 F 1 "CAP" H 2528 955 50  0000 L CNN
-F 2 "" H 2350 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2350 1000 50  0001 C CNN
 F 3 "~" H 2350 1000 50  0001 C CNN
 	1    2350 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C2
 U 1 1 5D802B01
 P 1000 1850
-F 0 "C?" H 1178 1896 50  0000 L CNN
+F 0 "C2" H 1178 1896 50  0000 L CNN
 F 1 "CAP" H 1178 1805 50  0000 L CNN
-F 2 "" H 1000 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 1850 50  0001 C CNN
 F 3 "~" H 1000 1850 50  0001 C CNN
 	1    1000 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C4
 U 1 1 5D802B42
 P 2350 1850
-F 0 "C?" H 2528 1896 50  0000 L CNN
+F 0 "C4" H 2528 1896 50  0000 L CNN
 F 1 "CAP" H 2528 1805 50  0000 L CNN
-F 2 "" H 2350 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2350 1850 50  0001 C CNN
 F 3 "~" H 2350 1850 50  0001 C CNN
 	1    2350 1850
 	1    0    0    -1  
@@ -161,21 +161,21 @@ Wire Notes Line
 Wire Notes Line
 	2900 2250 450  2250
 $Comp
-L MCU_NXP_LPC804:LPC804-TSSOP24 U?
+L MCU_NXP_LPC804:LPC804-TSSOP24 U3
 U 1 1 5D82F28C
 P 2200 3150
-F 0 "U?" H 2200 3978 50  0000 C CNN
+F 0 "U3" H 2200 3978 50  0000 C CNN
 F 1 "LPC804-TSSOP24" H 2200 3887 50  0000 C CNN
-F 2 "" H 1500 3150 50  0001 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 1500 3150 50  0001 C CNN
 F 3 "" H 1500 3150 50  0001 C CNN
 	1    2200 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5D82F715
 P 2200 3900
-F 0 "#PWR?" H 2200 3650 50  0001 C CNN
+F 0 "#PWR04" H 2200 3650 50  0001 C CNN
 F 1 "GND" H 2205 3727 50  0000 C CNN
 F 2 "" H 2200 3900 50  0001 C CNN
 F 3 "" H 2200 3900 50  0001 C CNN
@@ -193,10 +193,10 @@ Wire Wire Line
 	2350 1600 2450 1600
 Connection ~ 2350 1600
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D1
 U 1 1 5D8312B1
 P 4100 1050
-F 0 "D?" H 4441 1096 50  0000 L CNN
+F 0 "D1" H 4441 1096 50  0000 L CNN
 F 1 "WS2812" H 4441 1005 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4150 750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4200 675 50  0001 L TNN
@@ -204,10 +204,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4200 675 50  0001 L 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D2
 U 1 1 5D831371
 P 5150 1050
-F 0 "D?" H 5491 1096 50  0000 L CNN
+F 0 "D2" H 5491 1096 50  0000 L CNN
 F 1 "WS2812" H 5491 1005 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5200 750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5250 675 50  0001 L TNN
@@ -215,10 +215,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5250 675 50  0001 L 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D3
 U 1 1 5D83141B
 P 6150 1050
-F 0 "D?" H 6491 1096 50  0000 L CNN
+F 0 "D3" H 6491 1096 50  0000 L CNN
 F 1 "WS2812" H 6491 1005 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6200 750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 6250 675 50  0001 L TNN
@@ -257,10 +257,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 1050 5850 1050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5D833E4C
 P 4100 1350
-F 0 "#PWR?" H 4100 1100 50  0001 C CNN
+F 0 "#PWR06" H 4100 1100 50  0001 C CNN
 F 1 "GND" H 4105 1177 50  0000 C CNN
 F 2 "" H 4100 1350 50  0001 C CNN
 F 3 "" H 4100 1350 50  0001 C CNN
@@ -268,10 +268,10 @@ F 3 "" H 4100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5D833E8C
 P 5150 1350
-F 0 "#PWR?" H 5150 1100 50  0001 C CNN
+F 0 "#PWR08" H 5150 1100 50  0001 C CNN
 F 1 "GND" H 5155 1177 50  0000 C CNN
 F 2 "" H 5150 1350 50  0001 C CNN
 F 3 "" H 5150 1350 50  0001 C CNN
@@ -279,10 +279,10 @@ F 3 "" H 5150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5D833ECC
 P 6150 1350
-F 0 "#PWR?" H 6150 1100 50  0001 C CNN
+F 0 "#PWR09" H 6150 1100 50  0001 C CNN
 F 1 "GND" H 6155 1177 50  0000 C CNN
 F 2 "" H 6150 1350 50  0001 C CNN
 F 3 "" H 6150 1350 50  0001 C CNN
@@ -297,17 +297,17 @@ Wire Notes Line
 	2900 1600 6900 1600
 Wire Notes Line
 	6900 1600 6900 500 
-Text GLabel 900  2700 0    50   Input ~ 0
-WS_Data
+Text GLabel 1050 2400 0    50   Input ~ 0
+WS_Data_MCU
 Wire Wire Line
 	900  2700 1000 2700
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J?
+L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5D886D68
 P 1150 4450
-F 0 "J?" H 1200 4867 50  0000 C CNN
+F 0 "J1" H 1200 4867 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1200 4776 50  0000 C CNN
-F 2 "" H 1150 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1150 4450 50  0001 C CNN
 F 3 "~" H 1150 4450 50  0001 C CNN
 	1    1150 4450
 	1    0    0    -1  
@@ -348,10 +348,10 @@ Wire Wire Line
 	850  4650 850  4450
 Connection ~ 850  4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5D8A67BE
 P 850 4650
-F 0 "#PWR?" H 850 4400 50  0001 C CNN
+F 0 "#PWR01" H 850 4400 50  0001 C CNN
 F 1 "GND" H 855 4477 50  0000 C CNN
 F 2 "" H 850 4650 50  0001 C CNN
 F 3 "" H 850 4650 50  0001 C CNN
@@ -368,23 +368,23 @@ Wire Notes Line
 Wire Notes Line
 	3800 1600 3800 4900
 $Comp
-L pspice:CAP C?
+L pspice:CAP C5
 U 1 1 5D8C7667
 P 2700 4300
-F 0 "C?" H 2878 4346 50  0000 L CNN
+F 0 "C5" H 2878 4346 50  0000 L CNN
 F 1 "CAP" H 2878 4255 50  0000 L CNN
-F 2 "" H 2700 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 4300 50  0001 C CNN
 F 3 "~" H 2700 4300 50  0001 C CNN
 	1    2700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C6
 U 1 1 5D8C7701
 P 3200 4300
-F 0 "C?" H 3378 4346 50  0000 L CNN
+F 0 "C6" H 3378 4346 50  0000 L CNN
 F 1 "CAP" H 3378 4255 50  0000 L CNN
-F 2 "" H 3200 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 4300 50  0001 C CNN
 F 3 "~" H 3200 4300 50  0001 C CNN
 	1    3200 4300
 	1    0    0    -1  
@@ -394,10 +394,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 4550 2950 4550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5D8CF18E
 P 2950 4550
-F 0 "#PWR?" H 2950 4300 50  0001 C CNN
+F 0 "#PWR05" H 2950 4300 50  0001 C CNN
 F 1 "GND" H 2955 4377 50  0000 C CNN
 F 2 "" H 2950 4550 50  0001 C CNN
 F 3 "" H 2950 4550 50  0001 C CNN
@@ -417,23 +417,23 @@ Connection ~ 2950 4050
 Wire Wire Line
 	2950 4050 3200 4050
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5DB83049
 P 4200 2050
-F 0 "BT?" H 4318 2146 50  0000 L CNN
+F 0 "BT1" H 4318 2146 50  0000 L CNN
 F 1 "Battery_Cell" H 4318 2055 50  0000 L CNN
-F 2 "" V 4200 2110 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 4200 2110 50  0001 C CNN
 F 3 "~" V 4200 2110 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT3
 U 1 1 5DB830AD
 P 4200 3050
-F 0 "BT?" H 4318 3146 50  0000 L CNN
+F 0 "BT3" H 4318 3146 50  0000 L CNN
 F 1 "Battery_Cell" H 4318 3055 50  0000 L CNN
-F 2 "" V 4200 3110 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 4200 3110 50  0001 C CNN
 F 3 "~" V 4200 3110 50  0001 C CNN
 	1    4200 3050
 	1    0    0    -1  
@@ -445,10 +445,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 1750 4200 1850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5DB85C85
 P 4200 3300
-F 0 "#PWR?" H 4200 3050 50  0001 C CNN
+F 0 "#PWR07" H 4200 3050 50  0001 C CNN
 F 1 "GND" H 4205 3127 50  0000 C CNN
 F 2 "" H 4200 3300 50  0001 C CNN
 F 3 "" H 4200 3300 50  0001 C CNN
@@ -458,12 +458,12 @@ $EndComp
 Wire Wire Line
 	4200 3150 4200 3300
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT2
 U 1 1 5DB89FB6
 P 4200 2500
-F 0 "BT?" H 4318 2596 50  0000 L CNN
+F 0 "BT2" H 4318 2596 50  0000 L CNN
 F 1 "Battery_Cell" H 4318 2505 50  0000 L CNN
-F 2 "" V 4200 2560 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 4200 2560 50  0001 C CNN
 F 3 "~" V 4200 2560 50  0001 C CNN
 	1    4200 2500
 	1    0    0    -1  
@@ -476,4 +476,98 @@ Wire Notes Line
 	3800 3550 4850 3550
 Wire Notes Line
 	4850 3550 4850 1600
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5DB9156E
+P 5700 2250
+F 0 "Q?" H 5891 2296 50  0000 L CNN
+F 1 "PN2222A" H 5891 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5900 2175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5700 2250 50  0001 L CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB91ECF
+P 6600 2250
+F 0 "RN?" H 6788 2296 50  0000 L CNN
+F 1 "R_Pack04" H 6788 2205 50  0000 L CNN
+F 2 "" V 6875 2250 50  0001 C CNN
+F 3 "~" H 6600 2250 50  0001 C CNN
+	1    6600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB920B1
+P 5800 2600
+F 0 "#PWR?" H 5800 2350 50  0001 C CNN
+F 1 "GND" H 5805 2427 50  0000 C CNN
+F 2 "" H 5800 2600 50  0001 C CNN
+F 3 "" H 5800 2600 50  0001 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2450 5800 2600
+Text GLabel 5750 1900 0    50   Input ~ 0
+R1
+Wire Wire Line
+	5750 1900 5800 1900
+Wire Wire Line
+	5800 1900 5800 2050
+Text GLabel 6300 2550 0    50   Input ~ 0
+R1
+Wire Wire Line
+	6400 2450 6400 2550
+Wire Wire Line
+	6400 2550 6300 2550
+Text GLabel 6300 1850 0    50   Input ~ 0
+6v
+Wire Wire Line
+	6300 1850 6400 1850
+Wire Wire Line
+	6400 1850 6400 2050
+Wire Wire Line
+	6500 2450 6500 2550
+Wire Wire Line
+	6500 2550 6600 2550
+Wire Wire Line
+	6600 2550 6600 2450
+Wire Wire Line
+	6600 2050 6600 1950
+Wire Wire Line
+	6600 1950 6700 1950
+Wire Wire Line
+	6700 1950 6700 2050
+Text GLabel 6600 1850 2    50   Input ~ 0
+WS_Data_MCU
+Wire Wire Line
+	6600 1850 6500 1850
+Wire Wire Line
+	6500 1850 6500 2050
+Text GLabel 5300 2250 0    50   Input ~ 0
+trig
+Text GLabel 6750 2550 2    50   Input ~ 0
+trig
+Wire Wire Line
+	6750 2550 6700 2550
+Wire Wire Line
+	6700 2550 6700 2450
+Wire Wire Line
+	5300 2250 5500 2250
+Wire Wire Line
+	900  2700 900  2500
+Wire Wire Line
+	900  2500 1100 2500
+Wire Wire Line
+	1100 2500 1100 2400
+Wire Wire Line
+	1100 2400 1050 2400
+Text GLabel 6400 2800 0    50   Input ~ 0
+WS_Data
+Wire Wire Line
+	6400 2550 6400 2800
+Connection ~ 6400 2550
 $EndSCHEMATC
