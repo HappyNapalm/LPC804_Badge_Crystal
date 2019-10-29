@@ -293,10 +293,6 @@ Text GLabel 3600 1050 0    50   Input ~ 0
 WS_Data
 Wire Wire Line
 	3600 1050 3800 1050
-Wire Notes Line
-	2900 1600 6900 1600
-Wire Notes Line
-	6900 1600 6900 500 
 Text GLabel 1050 2400 0    50   Input ~ 0
 WS_Data_MCU
 Wire Wire Line
@@ -477,10 +473,10 @@ Wire Notes Line
 Wire Notes Line
 	4850 3550 4850 1600
 $Comp
-L Transistor_BJT:PN2222A Q?
+L Transistor_BJT:PN2222A Q1
 U 1 1 5DB9156E
 P 5700 2250
-F 0 "Q?" H 5891 2296 50  0000 L CNN
+F 0 "Q1" H 5891 2296 50  0000 L CNN
 F 1 "PN2222A" H 5891 2205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5900 2175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5700 2250 50  0001 L CNN
@@ -488,21 +484,21 @@ F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5700 2250 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04 RN?
+L Device:R_Pack04 RN1
 U 1 1 5DB91ECF
 P 6600 2250
-F 0 "RN?" H 6788 2296 50  0000 L CNN
+F 0 "RN1" H 6788 2296 50  0000 L CNN
 F 1 "R_Pack04" H 6788 2205 50  0000 L CNN
-F 2 "" V 6875 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6875 2250 50  0001 C CNN
 F 3 "~" H 6600 2250 50  0001 C CNN
 	1    6600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5DB920B1
 P 5800 2600
-F 0 "#PWR?" H 5800 2350 50  0001 C CNN
+F 0 "#PWR010" H 5800 2350 50  0001 C CNN
 F 1 "GND" H 5805 2427 50  0000 C CNN
 F 2 "" H 5800 2600 50  0001 C CNN
 F 3 "" H 5800 2600 50  0001 C CNN
@@ -570,4 +566,41 @@ WS_Data
 Wire Wire Line
 	6400 2550 6400 2800
 Connection ~ 6400 2550
+$Comp
+L LED:WS2812 D?
+U 1 1 5DBA6030
+P 7200 1050
+F 0 "D?" H 7541 1096 50  0000 L CNN
+F 1 "WS2812" H 7541 1005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7250 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 7300 675 50  0001 L TNN
+	1    7200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1050 6900 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5DBA7E79
+P 7200 1350
+F 0 "#PWR?" H 7200 1100 50  0001 C CNN
+F 1 "GND" H 7205 1177 50  0000 C CNN
+F 2 "" H 7200 1350 50  0001 C CNN
+F 3 "" H 7200 1350 50  0001 C CNN
+	1    7200 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 650  0    50   Input ~ 0
+6v
+Wire Wire Line
+	6950 650  7100 650 
+Wire Wire Line
+	7100 650  7100 750 
+Wire Wire Line
+	7100 750  7200 750 
+Connection ~ 7100 750 
+Wire Notes Line
+	7950 1600 7950 450 
+Wire Notes Line
+	2900 1600 7950 1600
 $EndSCHEMATC
